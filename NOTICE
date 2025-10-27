@@ -1,0 +1,12 @@
+NOTICE
+======
+
+This project is a modified fork of YOLOX (https://github.com/Megvii-BaseDetection/YOLOX) originally developed by Megvii-BaseDetection under the Apache Licence, Version 2.0.
+
+Modifications have been in this fork under the branch 'dev-main' to:
+- Modified verified versions in requirements.txt to meet built environment
+- Include weights_only=False in torch.load of demo.py & export_onnx.py to meet pytorch>=2.6 and above
+
+Copyright (C) 2025 Syahir
+
+This product includes software developed at Megvii-BaseDetection and contributors.
